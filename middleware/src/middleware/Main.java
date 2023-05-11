@@ -17,9 +17,7 @@ public class Main {
 			System.out.println(resultset.getString(2));
 		}
 		connection.close();
-//		ResultSet resultset2 = DriverManager.getConnection("","","").createStatement().executeQuery("");
-//		PreparedStatement preparedstatement = connection.prepareStatement(select * from records);
-//		preparedstatement.executeQuery();
+
 		
 		
 	}
