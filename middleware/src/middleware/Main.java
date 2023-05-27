@@ -16,10 +16,7 @@ public class Main {
 			System.out.println(resultset.getInt(1));
 			System.out.println(resultset.getString(2));
 		}
-		connection.close();
-
-		
-		
+		connection.close();		
 	}
 
 }
